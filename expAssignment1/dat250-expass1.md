@@ -1,6 +1,6 @@
 # Experience Assignment 1
 
-Author: 577136@stud.hvl.no
+Author: Kenneth Fossen 577136@stud.hvl.no
 
 ### Tasks
 
@@ -132,7 +132,8 @@ Exampl output from a session:
 ```
 $ heroku scale web=1
 Scaling dynos... done, now running web at 1:Free
- kenneth@kefo  ~/GIT/heroku/java-getting-started   master  heroku ps 
+
+$ heroku ps 
 Free dyno hours quota remaining this month: 550h 0m (100%)
 Free dyno usage for this app: 0h 0m (0%)
 For more information on dyno sleeping and how to upgrade, see:
@@ -142,13 +143,14 @@ https://devcenter.heroku.com/articles/dyno-sleeping
 web.1: up 2020/08/19 12:39:52 +0200 (~ 17m ago)
 
 $ heroku open 
+
 $ heroku status 
 Apps:      No known issues at this time.
 Data:      No known issues at this time.
 Tools:     No known issues at this time.
 $ heroku logs --num 2
-2020-08-19T10:56:56.968467+00:00 heroku[router]: at=info method=GET path="/hello" host=damp-reaches-93136.herokuapp.com request_id=8b1e0be3-4ed0-4e74-bb03-701177762ca1 fwd="77.16.53.103" dyno=web.1 connect=1ms service=145ms status=200 bytes=3561 protocol=https
-2020-08-19T10:57:25.511101+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-93136.herokuapp.com request_id=0283955a-a274-49e5-82ac-0c792cac89c4 fwd="77.16.53.103" dyno=web.1 connect=1ms service=9ms status=200 bytes=7329 protocol=https
+2020-08-19T10:56:56.968467+00:00 heroku[router]: at=info method=GET path="/hello" host=damp-reaches-93136.herokuapp.com request_id={token} fwd="77.16.53.103" dyno=web.1 connect=1ms service=145ms status=200 bytes=3561 protocol=https
+2020-08-19T10:57:25.511101+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-93136.herokuapp.com request_id={token} fwd="77.16.53.103" dyno=web.1 connect=1ms service=9ms status=200 bytes=7329 protocol=https
 ```
 
 Kenneth 
