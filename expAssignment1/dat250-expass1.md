@@ -1,14 +1,14 @@
-# Experience Assignment 1
+# DAT250: Experience Assignment 1
 
 Author: Kenneth Fossen 577136@stud.hvl.no
 
-### Tasks
+## Tasks
 
 * Installation: Software Development Environment
-    * JRE
-    * IDE 
-    * Maven
-    * Git
+  * JRE
+  * IDE
+  * Maven
+  * Git
 * Experiment: Heroku and Platform as a Service
 
 Noting on following topics:
@@ -30,25 +30,24 @@ Since I've already had serveral classes with proramming in Java, I already had a
 
 Verified Java installation with the following command.
 
-```
+```sh
 $ java --version
 java 13.0.2 2020-01-14
 Java(TM) SE Runtime Environment (build 13.0.2+8)
 Java HotSpot(TM) 64-Bit Server VM (build 13.0.2+8, mixed mode, sharing)
 ```
 
-
 ### Maven
 
 This tool is already installed. Can be fetched with using [Homebrew](https://brew.sh/);
 
-```
+```sh
 $ brew install maven
 ````
 
 Verifying the Maven setup:
 
-```
+```sh
 $ mvn -v
 Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 Maven home: /usr/local/Cellar/maven/3.6.3_1/libexec
@@ -69,7 +68,8 @@ Changing this, and the program compiled and worke perfectly.
 Google Result for a similar problem on [StackOverflow](https://stackoverflow.com/questions/59601077/intellij-errorjava-error-release-version-5-not-supported)
 
 Output from IntelliJ:
-```
+
+```sh
 /Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/bin/java 
 -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=62253:/Applications/IntelliJ IDEA.app/Contents/bin 
 -Dfile.encoding=UTF-8 
@@ -80,45 +80,45 @@ Hello world
 Process finished with exit code 0
 ```
 
-
 ### Git
 
 Already installed Git CLI tools as I use them for private projects.
 Also use [GitKraken](https://www.gitkraken.com/) as my GUI client for managing my repositories.
 
-```
+```sh
 $ git version
 git version 2.22.0
 $ git init dat250.h20
 Initialized empty Git repository in /Users/kenneth/dat250.h20/.git/
 ```
 
-# Experiment: Heroku and Platform as a Service
+## Experiment: Heroku and Platform as a Service
 
 Following the [guide](https://devcenter.heroku.com/articles/getting-started-with-java) suggested from the assignment.
-
 
 ### Heroku CLI
 
 Installed via brew:
-```
+
+```sh
 brew install heroku/brew/heroku
 ```
 
 Logged in:
-```
+
+```sh
 kenneth@kefo  ~ > heroku login
 heroku: Press any key to open up the browser to login or q to exit: 
 Opening browser to https://cli-auth.heroku.com/auth/cli/browser/{token}?requestor={id}
 Logging in... done
-Logged in as fossen.kenneth@gmail.com
+Logged in as fossen.kenneth@somemail.com
 ```
 
 Followed the guide.
 Skipped the step of adding Papertail to the account as it required a "Verification" based on me adding my Credit Card.
 Solved by skipping the task, as I'm not adding my card to a Online Service.
 
-```
+```sh
 $ heroku addons:create papertrail
 Creating papertrail on ⬢ damp-reaches-93136... !
  ▸    Please verify your account to install this add-on plan (please enter a credit card)
@@ -129,11 +129,12 @@ Creating papertrail on ⬢ damp-reaches-93136... !
 Except this, there was no issues running/configuring or using Heroku services from my DevEnv.
 
 Exampl output from a session:
-```
+
+```sh
 $ heroku scale web=1
 Scaling dynos... done, now running web at 1:Free
 
-$ heroku ps 
+$ heroku ps
 Free dyno hours quota remaining this month: 550h 0m (100%)
 Free dyno usage for this app: 0h 0m (0%)
 For more information on dyno sleeping and how to upgrade, see:
@@ -142,9 +143,9 @@ https://devcenter.heroku.com/articles/dyno-sleeping
 === web (Free): java -jar target/java-getting-started-1.0.jar (1)
 web.1: up 2020/08/19 12:39:52 +0200 (~ 17m ago)
 
-$ heroku open 
+$ heroku open
 
-$ heroku status 
+$ heroku status
 Apps:      No known issues at this time.
 Data:      No known issues at this time.
 Tools:     No known issues at this time.
@@ -153,6 +154,6 @@ $ heroku logs --num 2
 2020-08-19T10:57:25.511101+00:00 heroku[router]: at=info method=GET path="/" host=damp-reaches-93136.herokuapp.com request_id={token} fwd="77.16.53.103" dyno=web.1 connect=1ms service=9ms status=200 bytes=7329 protocol=https
 ```
 
-Kenneth 
+Kenneth
  
 
