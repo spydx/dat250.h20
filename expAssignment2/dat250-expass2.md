@@ -100,7 +100,8 @@ Result:
 
 ### Experiment 2: Banking/Credit Card example JPA
 
-Try to implement the domain model for credit cards corresponding to the small assignment that was introduced in the last lecture video on object-relationship mapping. Does the tables created correspond to your initial answer to the exercise.
-
+Yeas, there are some more columns but besides that it corresponds to my answer.
+Link to the code [dat250-jpa-code/](dat250-jpa-code/)
 ![Bank Domain Model](img/BankUMLClass.png)
 ![Implemented Bank Domain Model](img/intellij_bank_uml.png)
+![Inspection of the tables](img/datagrip_inspection.png)
