@@ -104,4 +104,9 @@ Yeas, there are some more columns but besides that it corresponds to my answer.
 Link to the code [dat250-jpa-code/](dat250-jpa-code/)
 ![Bank Domain Model](img/BankUMLClass.png)
 ![Implemented Bank Domain Model](img/intellij_bank_uml.png)
+![Running the code](img/intellij_java.png)
 ![Inspection of the tables](img/datagrip_inspection.png)
+
+### Pending issues
+
+No 
