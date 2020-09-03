@@ -10,6 +10,12 @@ Author: Kenneth Fossen 577136@stud.hvl.no
 | Experiment 1: Application using JPA | :white_check_mark: |
 | Experiment 2: Banking/Credit Card example JPA | :white_check_mark:|
 
+Noting on following topics:
+
+- technical problems that you encountered during installation and use of Java Persistence Architecture (JPA) and how you resolved
+- a link to your code for experiment 1 and 2 above
+- an explanation of how you inspected the database tables and what tables were created. For the latter you may provide screenshots.
+- any pending issues with this assignment which you did not manage to solve
 
 ## Installation: Derby Database
 
@@ -96,9 +102,5 @@ Result:
 
 Try to implement the domain model for credit cards corresponding to the small assignment that was introduced in the last lecture video on object-relationship mapping. Does the tables created correspond to your initial answer to the exercise.
 
-Noting on following topics:
-
-- technical problems that you encountered during installation and use of Java Persistence Architecture (JPA) and how you resolved
-- a link to your code for experiment 1 and 2 above
-- an explanation of how you inspected the database tables and what tables were created. For the latter you may provide screenshots.
-- any pending issues with this assignment which you did not manage to solve
+![Bank Domain Model](img/BankUMLClass.png)
+![Implemented Bank Domain Model](img/intellij_bank_uml.png)
