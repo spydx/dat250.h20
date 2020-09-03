@@ -1,12 +1,15 @@
-# DAT250: Experience Assignment 1
+# DAT250: Experience Assignment 2
 
 Author: Kenneth Fossen 577136@stud.hvl.no
 
 ## Tasks
 
-- Installation: Derby Database
-- Experiment 1: Application using JPA
-- Experiment 2: Banking/Credit Card example JPA
+| Task | Done |
+| --- | --- |
+| Installation: Derby Database | :white_check_mark: |
+| Experiment 1: Application using JPA | :white_check_mark: |
+| Experiment 2: Banking/Credit Card example JPA | :white_check_mark:|
+
 
 ## Installation: Derby Database
 
