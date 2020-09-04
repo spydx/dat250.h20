@@ -109,4 +109,4 @@ Link to the code [dat250-jpa-code/](dat250-jpa-code/)
 
 ### Pending issues
 
-No 
+None
