@@ -8,15 +8,24 @@ Author: Kenneth Fossen 577136@stud.hvl.no
 | --- | --- |
 | Getting started | :white_check_mark: |
 | Installation: Mongo DB| :white_check_mark: |
-| Experiment 1: Application using JPA | :white_check_mark: |
-| Experiment 2: Banking/Credit Card example JPA | :white_check_mark:|
+| Experiment 1: MongoDB CRUD operations | :white_check_mark: |
+| Experiment 2: Aggregation | :white_check_mark:|
 
 Noting on following topics:
 
-- technical problems that you encountered during installation and use of Java Persistence Architecture (JPA) and how you resolved
-- a link to your code for experiment 1 and 2 above
-- an explanation of how you inspected the database tables and what tables were created. For the latter you may provide screenshots.
-- any pending issues with this assignment which you did not manage to solve
+- Technical problems that you encountered during installation and use of MongoDB and how you resolved
+
+- Screenshots for:
+
+  - The correct validation of the installation package (https://docs.mongodb.com/manual/tutorial/verify-mongodb-packages/)
+
+  - Relevant results obtained during Experiment 1 (it is not necessary to put a single screenshot on each substep, but at least one significant from each CRUD operation).
+
+  - Experiment 2 example working and the additional Map-reduce operation (and its result) developed by each of you.
+
+- Reason about why your implemented Map-reduce operation in Experiment 2 is useful and interpret the collection obtained. 
+
+- Any pending issues with this assignment which you did not manage to solve
 
 ## Getting started
 
@@ -67,7 +76,8 @@ Installed this way because I don't want a DB cluttering up my OS, hence pulling 
 Have not SHA256 verified the binaries as this was a official docker image from MongoDB.
 [Official Docker Image](https://hub.docker.com/_/mongo/)
 
-##Experiment 1: MongoDB CRUD operations
+## Experiment 1: MongoDB CRUD operations
+
 CRUD operations stands for create, read, update, and delete documents.
 
 Follow and do the tutorials through the CRUD operations section:
@@ -183,6 +193,7 @@ catch (e) {
 ![Result image from query](img/mongodb_bulkedit.png)
 
 ## Experiment 2: Aggregation
+
 Aggregation operations process data records and return computed results. Aggregation operations group values from multiple documents together, and can perform a variety of operations on the grouped data to return a single result. MongoDB provides three ways to perform aggregation: the aggregation pipeline, the map-reduce function, and single purpose aggregation methods.
 
 We will focus on Map-Reduce for this experiment, but you are encouraged to take a look at Aggregation Pipeline.
@@ -199,3 +210,8 @@ Complete the Examples tutorial (the Aggregation alternative part is not mandator
 https://docs.mongodb.com/manual/tutorial/map-reduce-examples/
 
 Add an additional operation developed by you and show its the result given by its execution.
+
+
+## Pending issues
+
+No
