@@ -9,7 +9,7 @@ Author: Kenneth Fossen 577136@stud.hvl.no
 | Getting started | :white_check_mark: |
 | Installation: Mongo DB| :white_check_mark: |
 | Experiment 1: MongoDB CRUD operations | :white_check_mark: |
-| Experiment 2: Aggregation | :white_check_mark: |
+| Experiment 2: Aggregation focus on Map-Reduce | :white_check_mark: |
 
 Noting on following topics:
 
