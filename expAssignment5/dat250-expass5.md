@@ -27,7 +27,7 @@ None
 
 ### Link to code
 
-[Code for 1-4](/gettingstarted)
+[Code for 1-4](gettingstarted/)
 
 ## Pending issues
 
