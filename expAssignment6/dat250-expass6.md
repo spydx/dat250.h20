@@ -19,7 +19,7 @@ In particular, you should write about:
 
 ### Experiment 1: Modell-View-Controller Web Applications
 
-Followed the guide, no problems
+Followed the guide, no problems, but I've also already done it before.
 
 ### Experiment 2: Single-page Web Applications
 
