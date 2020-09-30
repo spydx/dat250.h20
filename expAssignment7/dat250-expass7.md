@@ -6,11 +6,11 @@ Author: Kenneth Fossen 577136@stud.hvl.no
 
 | Task | Done |
 | --- | --- |
-|  Experiment 1: Installation | :white_check_mark: |
-|  Experiment 2: Hello World | :white_check_mark:  |
-|  Experiment 3: Queue messaging | :white_check_mark: |
-|  Experiment 4: Topics | :white_check_mark: |
-|  Pending issues | :white_check_mark: |
+| Experiment 1: Installation | :white_check_mark: |
+| Experiment 2: Hello World | :white_check_mark:  |
+| Experiment 3: Queue messaging | :white_check_mark: |
+| Experiment 4: Topics | :white_check_mark: |
+| Pending issues | :white_check_mark: |
 
 ### Experiment 1: Installation
 
