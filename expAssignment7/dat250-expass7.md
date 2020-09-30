@@ -8,11 +8,9 @@ Author: Kenneth Fossen 577136@stud.hvl.no
 | --- | --- |
 |  Experiment 1: Installation | :white_check_mark: |
 |  Experiment 2: Hello World | :white_check_mark:  |
-|  Experiment 3: Queue messaging |  |
-|  Experiment 4: Topics |  |
-
-
-
+|  Experiment 3: Queue messaging | :white_check_mark: |
+|  Experiment 4: Topics | :white_check_mark: |
+|  Pending issues | :white_check_mark: |
 
 ### Experiment 1: Installation
 
@@ -35,7 +33,18 @@ You can freely choose the programming language.
 > cd rabbitmq/
 > docker start rabbitmq
 > cargo run --example hello_consumer
+...
+(39997) Received [People who don't take risks generally make about two big mistakes a year. People who do take risks generally make about two big mistakes a year.]
+(39998) Received [If you care enough for a result, you will most certainly attain it.]
+(39999) Received [If you command wisely, you'll be obeyed cheerfully.]
+
 > cargo run --example hello_sender
+Sending: 39997
+Sending: 39998
+Sending: 39999
+Sending: 40000
+Sent 40000 messages
+
 > docker stop rabbitmq
 ```
 
@@ -72,9 +81,27 @@ Waiting for messages:
 > docker stop rabbitmq
 ```
 
-
 ### Experiment 4: Topics
 
 Complete the ["Publish/subscribe" tutorial](https://www.rabbitmq.com/getstarted.html)
 
 You can freely choose the programming language.
+
+```sh
+> docker start rabbitmq
+
+> cargo run --example topic_handler
+(3998) LONG:It is strange to be known so universally and yet to be so lonely.
+(3999) SHORT:Alone we can do so little together we can do so much.
+
+> cargo run --example topic_publisher
+Sent LONG:It is strange to be known so universally and yet to be so lonely.
+Sent SHORT:Alone we can do so little together we can do so much.
+Sent 1000: Short:41 Long:959
+
+> docker stop rabbitmq
+````
+
+### Pending issues
+
+No

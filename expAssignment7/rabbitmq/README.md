@@ -20,5 +20,7 @@ Kenneth Fossen
 > cargo run --example hello_sender
 > cargo run --example workque_task
 > cargo run --example workque_handler
+> cargo run --example topic_publisher
+> cargo run --example topic_handler
 > docker stop rabbitmq
 ```
