@@ -3,7 +3,6 @@ package no.hvl.dat250.swagger.todos;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
 public class SwaggerApp {
 

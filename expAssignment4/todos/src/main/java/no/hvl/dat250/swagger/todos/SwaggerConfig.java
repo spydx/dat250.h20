@@ -18,6 +18,7 @@ public class SwaggerConfig {
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("no.hvl.dat250.swagger.todos"))
                 .paths(regex("/api*"))
-                .build();
+                .build()
+                .pathMapping("/");
     }
 }

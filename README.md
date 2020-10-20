@@ -20,4 +20,4 @@ DAT250: Advanced Software Technologies
 
 [Report for expAssignment 6](/expAssignment6/dat250-expass6.md)
 
-[Report for expAssignment 7](/expAssignment6/dat250-expass7.md)
+[Report for expAssignment 7](/expAssignment7/dat250-expass7.md)
